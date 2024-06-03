@@ -25,3 +25,5 @@ while chod_prg:
     slovo = input(f"Zadejte slovo/větu pro {enc_dec_str}:\n").lower()
     posun = int(input("Zadejte číslo pro posun:\n"))
     print(f"{enc_dec_str2} text:{sifra(slovo, posun, encode_decode)}")  # "vwxyz", 3 / "yzabc", 3
+
+# TODO kodování dekodování do/ze souboru

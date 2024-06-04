@@ -2,7 +2,7 @@ from CesarSifraModul2 import sifra, logocs
 
 chod_prg = True
 while chod_prg:
-    logocs()
+    print(logocs())
     volba = input("\nPro zakódování vyberte (E/e) pro dekódování vyberte (D/d) pro ukončení (Q/q).\n").lower()
 
     if volba == "q":

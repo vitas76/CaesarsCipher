@@ -20,7 +20,6 @@ def sifra(slovo, kodovani, enc_dec):
         elif not enc_dec:
             newindex = (index - kodovani) % len(alphabet)
             zakodovano += alphabet[newindex]
-        # print(f" {index} idex | newindex {newindex}")
     return zakodovano
 
 
@@ -31,4 +30,4 @@ def logocs():
     ┗┛┗┻┗ ┛┗┻┛ ┛┗┛┗┣┛┛┗┗ ┛ 
                    ┛       
     '''
-    return print(logo)
+    return logo
